@@ -1,0 +1,70 @@
+/* NAVBAR */
+#newsletter{
+  background-color: purple;
+  display: flex;
+  justify-content: space-between;
+  
+  
+  }
+#newsletter img{
+  width: 50px;
+}
+
+header>section:first-child>div>img{
+  height: 40px;
+}
+
+nav>div:first-child>img{
+  height: 55px;
+  margin-top: 30px;
+}
+
+.menu>ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  
+}
+
+.menu>ul>li{
+  /* margin-left: 30px; */
+  border: solid black;
+  
+  
+}
+
+.menu{
+  border: red solid;
+  width: 100%;
+}
+
+nav{
+  display: flex;
+  /* justify-content: space-around; */
+  
+}
+
+
+#champs_newsletter{
+  display: flex;
+  margin-right: 40%;
+    
+}
+/* FIN NAVBAR */
+
+
+/* CONTENU */
+h1,h2{
+  text-align: center;
+}
+#contenu{
+  
+}
+
+/* FIN CONTENU */
+
+/* FOOTER */
+footer{
+  background-color: rgb(82, 80, 80);
+}
+/* FIN FOOTER */
