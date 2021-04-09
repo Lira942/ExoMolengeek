@@ -1,11 +1,22 @@
 /* NAVBAR */
+body{
+  font-family: sans-serif;
+}
+
+button{
+  background-color: rgb(83, 247, 83);
+}
+
+header{
+  width: 100%;
+}
+
 #newsletter{
   background-color: purple;
   display: flex;
   justify-content: space-between;
-  
-  
-  }
+}
+
 #newsletter img{
   width: 50px;
 }
@@ -26,22 +37,13 @@ nav>div:first-child>img{
   
 }
 
-.menu>ul>li{
-  /* margin-left: 30px; */
-  border: solid black;
-  
-  
-}
 
 .menu{
-  border: red solid;
   width: 100%;
 }
 
 nav{
-  display: flex;
-  /* justify-content: space-around; */
-  
+  display: flex; 
 }
 
 
@@ -53,12 +55,18 @@ nav{
 /* FIN NAVBAR */
 
 
-/* CONTENU */
-h1,h2{
+/* BODY */
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
   text-align: center;
 }
 #contenu{
-  
+  width: 80%;
 }
 
 /* FIN CONTENU */
@@ -66,5 +74,22 @@ h1,h2{
 /* FOOTER */
 footer{
   background-color: rgb(82, 80, 80);
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
 }
+
+footer>section{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+
+footer>img{
+  height: 55px;
+  
+  
+}
+
 /* FIN FOOTER */
